@@ -6,7 +6,6 @@
  */
 
 int main(void)
-
 {
 	char charType;
 	int intType;
