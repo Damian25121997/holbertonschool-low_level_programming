@@ -10,6 +10,7 @@ int main(void)
 	char = 'a'
 for (i = 'a'; i <= 'z'; i++)
 putchar(i);
+	pitchar('\n')
 
 return (0);
 }
