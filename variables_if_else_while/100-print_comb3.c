@@ -21,7 +21,7 @@ if
 {
 if
 (x == '8' && i != '9')
-}
+
 {
 putchar(',');
 putchar(' ');
