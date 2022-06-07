@@ -17,7 +17,11 @@ putchar(i);
 putchar(x);
 }
 if
-(x != '8') &(x == '8' && i != '9');
+(x != '8')
+{
+if
+(x == '8' && i != '9');
+}
 {
 putchar(',');
 putchar(' ');
