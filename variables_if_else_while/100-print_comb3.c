@@ -18,10 +18,10 @@ putchar(x);
 }
 if
 (x != '8' || (x == '8' && i != '9'))
-
+{
 putchar(',');
 putchar(' ');
-
+}
 putchar('\n');
 return (0);
 }
