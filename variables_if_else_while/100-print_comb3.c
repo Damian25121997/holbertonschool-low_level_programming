@@ -12,7 +12,7 @@ for (i = '0'; i <= '9'; i++)
 {
 for (x = i ; x <= '9'; x++)
 {
-if (i < x)
+if (i != x)
 putchar(i);
 putchar(x);
 }
