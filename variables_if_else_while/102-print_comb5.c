@@ -23,12 +23,12 @@ putchar(x);
 putchar(' ');
 putchar(z);
 putchar(y);
-/*if
-(i != '7' || x != '8' || z != '9')
+if
+(i != '9' && x != '8' && z != '9' && y != '9')
 {
 putchar(',');
 putchar(' ');
-}*/
+}
 }
 }
 }
