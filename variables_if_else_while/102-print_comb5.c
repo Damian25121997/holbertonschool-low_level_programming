@@ -16,7 +16,7 @@ for (z = i ; z <= '9'; z++)
 {
 for (y = x ; y <= '9'; y++)
 {
-if (x != y)
+if (x != y || i == z)
 {
 putchar(i);
 putchar(x);
