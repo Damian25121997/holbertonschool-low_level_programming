@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - print alphabet
+ * print_alphabet - print alphabet lowercase
  *
  * Return: Always
  */
 
 void print_alphabet(void)
 {
-	char a = 97;
+	char alphabet;
 
-	while
-	(a <= 122);
+	for (alphabet = 97 ; alphabet <= 122 ; alphabet++)
 	{
-		_putchar(a);
-		a++;
+		_putchar(alphabet);
 	}
-	_putchar(10);
+	_putchar('\n');
 }
