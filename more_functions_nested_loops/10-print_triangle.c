@@ -20,9 +20,9 @@ void print_triangle(int size)
 	else
 	_putchar(35);
 	}
-	size--;
 	_putchar('\n');
 	}
+	m--;
 	}
 	else
 	_putchar('\n');
