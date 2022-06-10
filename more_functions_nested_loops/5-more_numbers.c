@@ -8,11 +8,12 @@
 void more_numbers(void)
 {
 	int n, m;
-
-	for (n = 1; n < 10; n++)
+	n = 0
+	while (n < 10)
 	{
 		for (m = 0; m < 15; m++)
 			_putchar (m + '0');
 	}
+	n++;
 	_putchar(10);
 }
