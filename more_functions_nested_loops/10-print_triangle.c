@@ -20,7 +20,7 @@ void print_triangle(int size)
 	else
 	_putchar(35);
 	}
-	_putchat('\n');
+	_putchar('\n');
 	}
 	}
 	else
