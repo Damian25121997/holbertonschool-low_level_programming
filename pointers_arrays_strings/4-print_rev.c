@@ -22,7 +22,8 @@ void print_rev(char *s)
 		{
 			s--;
 			size--;
-			_putchar(*s);
+			if (*s != '\0')
+				_putchar(*s);
 		}
 		_putchar('\n');
 }
