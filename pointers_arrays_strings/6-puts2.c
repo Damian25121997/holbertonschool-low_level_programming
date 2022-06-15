@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - Print every other character of a string, starting with the first character, followed by new line
+ * puts2 - Print every other character of a string
  *
  * @str: is a string.
  *
