@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * *_strcpy - Reverse a string
+ * *_strcpy - copies the string pointed.
  *
- * @s: is a string.
+ * @dest: is a string
  *
- * Return: not return
+ * @src: is a string
+ * 
+ * Return: dest
  *
  */
 
