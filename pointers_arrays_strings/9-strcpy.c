@@ -6,7 +6,7 @@
  * @dest: is a string
  *
  * @src: is a string
- * 
+ *
  * Return: dest
  *
  */
