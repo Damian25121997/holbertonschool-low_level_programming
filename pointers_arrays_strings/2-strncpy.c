@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - copy a string 
+ * _strncpy - copy a string
  *
  * @dest: is a string
  * @n: number of elements to concatenate
