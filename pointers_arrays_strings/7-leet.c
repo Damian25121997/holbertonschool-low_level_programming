@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * lett - encode a string intro 1337
+ * leet - encode a string intro 1337
  * @p: string
  * Return: s
  */
