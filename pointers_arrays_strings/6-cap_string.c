@@ -24,7 +24,7 @@ char *cap_string(char *str)
 		{
 			if (str[x] >= 'a' && str[x] <= 'z')
 			{
-				str[x] -= ' '; /*HAGO LA LETRA EN MAYUSCULA*/
+				str[x] -= 32; /*HAGO LA LETRA EN MAYUSCULA*/
 				z = 0;
 			}
 			else if (str[x] >= 'A' && str[x] < 'Z')
