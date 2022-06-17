@@ -13,7 +13,7 @@ char *cap_string(char *str)
 
 	for (x = 0, z = 0; str[x] != '\0'; x++)
 	{
-		if (str[0] > 96 && str[0] < 123)
+		if (str[0] >= 'a' && str[0] <= 'z')
 			z = 1;
 		for (y = 0; a[y] != '\0'; y++)
 		{
@@ -22,14 +22,14 @@ char *cap_string(char *str)
 		}
 		if (z)
 		{
-			if (str[x] > 96 && str[x] < 123)
+			if (str[x] >= 'a' && str[x] <= 'z')
 			{
-				str[x] -= 32;
+				str[x] -= ' '; /*HAGO LA LETRA EN MAYUSCULA*/
 				z = 0;
 			}
-			else if (str[x] > 64 && str[x] < 91)
+			else if (str[x] >= 'A' && str[x] < 'Z')
 				z = 0;
-			else if (str[x] > 47 && str[x] < 58)
+			else if (str[x] > '0' && str[x] < '9')
 				z = 0;
 		}
 	}
