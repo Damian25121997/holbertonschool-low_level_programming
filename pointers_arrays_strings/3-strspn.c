@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _strchr - locates a character in a string
+ * _strspn - gets the length of a prefix substring
  * @s: is a string
- * @c: is a variable
- * Return: s
+ * @accept: is a string
+ * Return: x
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
 	int x, y, z;
-	
+
 	x = 0;
 	z = 0;
 	while (s[x] != '\0')
@@ -19,16 +19,16 @@ unsigned int _strspn(char *s, char *accept)
 		while (accept[y] != '\0')
 			{
 			if (s[x] == accept[y])
-				{
-					z++;
-					break;
-				}
+			{
+				z++;
+				break;
+			}
 			y++;
 			}
 			if (accept[y] == '\0')
-				{
-					return (z);
-				}
+			{
+				return (z);
+			}
 		x++;
 	}
 	return (x);
