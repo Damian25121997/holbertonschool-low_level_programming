@@ -7,7 +7,7 @@
 * Return: Always
 */
 
-int h_sqrt_rec (int x, int z)
+int h_sqrt_rec(int x, int z)
 {
 	if (x * x == z)
 	{
