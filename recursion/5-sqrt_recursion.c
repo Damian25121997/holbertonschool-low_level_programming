@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* _sqrt_recursion - return the natural square root of a number
-* @n: is a variable
+* h_sqrt_rec - check the code
+* @x: is a variable
+* @z: is a variable
 * Return: Always
 */
 
@@ -19,6 +20,12 @@ int h_sqrt_rec (int x, int z)
 	else
 		return (h_sqrt_rec(x + 1, z));
 }
+
+/**
+* _sqrt_recursion - return the natural square root of a number
+* @n: is a variable
+* Return: Always
+*/
 
 int _sqrt_recursion(int n)
 {
