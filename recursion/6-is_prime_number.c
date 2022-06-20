@@ -22,7 +22,7 @@ int _prime_number(int n, int r)
 		return (1);
 	}
 	return (_prime_number(n, r + 1));
-	
+
 }
 
 /**
