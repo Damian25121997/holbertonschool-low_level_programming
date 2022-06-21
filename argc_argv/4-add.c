@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 * main - adds positive numbers
 * @argc: stands for argument count
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 	{
 		if (!atoi(argv[x]))
 		{
-			printf("%s\n", "Error");
+			printf("Error\n");
 			return (1);
 		}
 		sum += atoi(argv[x]);
