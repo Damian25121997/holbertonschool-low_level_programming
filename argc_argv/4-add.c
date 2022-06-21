@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int x, sum = 0;
+	int x, z, sum = 0;
 
 	if (argc < 2)
 	{
@@ -19,12 +19,15 @@ int main(int argc, char *argv[])
 	}
 	for (x = 1; x < argc; x++)
 	{
-		if (!atoi(argv[x]))
+		for(z = 0; z < argv[x][z]; z++)
 		{
-			printf("Error\n");
-			return (1);
-		}
+			if (!atoi(argv[x]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		sum += atoi(argv[x]);
+		}
 	}
 	printf("%d\n", sum);
 return (0);
