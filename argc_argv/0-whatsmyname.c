@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <sdlib.h>
 
 /**
 * main - prints its name
