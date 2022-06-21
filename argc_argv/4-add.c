@@ -19,10 +19,10 @@ int main(int argc, char *argv[])
 	}
 	for (x = 1; x < argc; x++)
 	{
-		for(z = 0; z < argv[x][z]; z++)
+		for(z = 0; argv[x][z]; z++)
 
 		{
-			if (isdigit(argv[x]) == 0)
+			if (isdigit(argv[x][z]) == 0)
 			{
 				printf("Error\n");
 				return (1);
