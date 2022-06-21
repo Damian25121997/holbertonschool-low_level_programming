@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <ctype.h>
 /**
 * main - adds positive numbers
 * @argc: stands for argument count
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	{
 		for(z = 0; z < argv[x][z]; z++)
 		{
-			if (!atoi(argv[x]))
+			if (isdigit(argv[x]))
 			{
 				printf("Error\n");
 				return (1);
