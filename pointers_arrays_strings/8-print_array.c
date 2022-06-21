@@ -4,7 +4,7 @@
  * print_array - Print n elements of an array of integres
  *
  * @a: int type array pointer
- *
+*
  * @n: int type integrer
  *
  */
