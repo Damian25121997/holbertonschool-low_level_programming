@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* create_array - cretes an array of chars, and initializes it with a specific char
+* create_array - cretes an array of chars
 * @size: value of array
 * @c: character
 * Return: poiter.
