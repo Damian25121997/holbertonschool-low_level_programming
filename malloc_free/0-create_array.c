@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* create_array - cretes an array of chars, and initializes it with a specific char
+* @size: value of array
+* @c: character
+* Return: poiter.
+*/
+
 char *create_array(unsigned int size, char c)
 {
 	unsigned int z;
