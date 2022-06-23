@@ -10,9 +10,9 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	int x = 0, z = 0;
+	int x = 0;
 	char *pointer;
-	char f1, f2;
+	int f1, f2;
 
 	if (s1 == NULL || s2 == NULL)
 		s1 = s2 = "";
@@ -23,16 +23,15 @@ char *str_concat(char *s1, char *s2)
 
 	if (pointer == NULL)
 		return (NULL);
-	while (x < f1)
+
+	for (x = 0; x < f1; x++)
 	{
-		*(pointer + x) = *(s1 + x);
-		x++;
+		pointer[x] = s1[x];
 	}
-	while (z <= f2)
+	for (x = 0; x < f2; x++)
 	{
-		*(pointer + z + f1) = *(s2 + z);
-		z++;
-		pointer[x + z] = '\0';
+		pointer[x + f1] = s2[x]; 
 	}
+	
 	return (pointer);
 }
