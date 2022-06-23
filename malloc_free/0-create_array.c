@@ -8,17 +8,19 @@ char *create_array(unsigned int size, char c)
 	char *pointer;
 
 	if (size == 0)
-		
+
 	return (NULL);
 
 	pointer = (char *)malloc(size * sizeof(char));
 
-	for (z = 0; z < size; z++)
-	{
-		pointer[z] = c;
-	}
-	return (pointer);
-
 	if (pointer == NULL)
 	return (NULL);
+	else
+	{
+		for (z = 0; z < size; z++)
+		{
+			pointer[z] = c;
+		}
+		return (pointer);
+	}
 }
