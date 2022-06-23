@@ -32,8 +32,8 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (x = 0; x < f2; x++)
 	{
-		pointer[x + f1] = s2[x]; 
+		pointer[x + f1] = s2[x];
 	}
-	
+
 	return (pointer);
 }
