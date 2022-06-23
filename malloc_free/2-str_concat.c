@@ -26,8 +26,6 @@ char *str_concat(char *s1, char *s2)
 
 	if (pointer == NULL)
 		return (NULL);
-	if (s1 == NULL || s2 == NULL)
-		s1 = s2 = "";
 	while (*s1)
 	{
 		pointer[x] = *s1;
