@@ -10,7 +10,7 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	int f1, f2, x = 0;
+	unsigned int f1, f2, x = 0;
 	char *pointer;
 
 	if (s1 == NULL || s2 == NULL)
@@ -26,7 +26,8 @@ char *str_concat(char *s1, char *s2)
 
 	if (pointer == NULL)
 		return (NULL);
-
+	if (s1 == NULL || s2 == NULL)
+		s1 = s2 = "";
 	while (*s1)
 	{
 		pointer[x] = *s1;
