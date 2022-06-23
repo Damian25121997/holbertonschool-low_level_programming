@@ -32,6 +32,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		*(pointer + z + f1) = *(s2 + z);
 		z++;
+		pointer[x + z] = '\0';
 	}
 	return (pointer);
 }
