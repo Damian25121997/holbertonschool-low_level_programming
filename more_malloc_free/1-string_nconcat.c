@@ -2,7 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+/**
+* string_nconcat - concatenates two strings
+* @s1: is a pointer
+* @s2: is a pointer
+* @n: is a value of bytes
+* Return: pointer
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
