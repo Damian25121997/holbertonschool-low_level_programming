@@ -28,6 +28,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		pointer [x] = s1[x];
 	for (x = 0; x < n; x++)
 		pointer [x + f1] = s2[x];
-
+	pointer(x) = '\0';
 	return (pointer);
 }
