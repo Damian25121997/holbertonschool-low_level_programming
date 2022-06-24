@@ -18,6 +18,8 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	for (x = 0; x <= a; x++)
+	{
 		pointer[x] = min + x;
+	}
 	return (pointer);
 }
