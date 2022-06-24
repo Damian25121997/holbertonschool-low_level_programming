@@ -14,7 +14,7 @@ int *array_range(int min, int max)
 
 	pointer = malloc(sizeof(int) * a);
 
-	if (p == NULL)
+	if (pointer == NULL)
 		return (NULL);
 
 	for (x = 0; x <= a; x++)
