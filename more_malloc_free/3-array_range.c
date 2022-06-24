@@ -12,7 +12,7 @@ int *array_range(int min, int max)
 
 	a = max - min + 1;
 
-	pointer = malloc(sizeof(int) * a)
+	pointer = malloc(sizeof(int) * a);
 
 	if (p == NULL)
 		return (NULL);
