@@ -42,7 +42,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (b == NULL)
 	{
 		free(a);
-		free (pointer);
+		free(pointer);
 		return (NULL);
 	}
 	for (x = 0; x < len2; x++)
