@@ -24,14 +24,14 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if ((*get_op == '/') || (*get_op == '%')) && (*argv[3] == '0')
+	if (*get_op == '/') || (*get_op == '%') && (*argv[3] == '0')
 	{
 		printf("Error\n");
 		exit(100);
 	}
 	
 	res = get_op_func(get_op);
-	eq = (res(one, two);
+	eq = res(one, two);
 
 	printf("%d\n", eq);
 	return (0);
