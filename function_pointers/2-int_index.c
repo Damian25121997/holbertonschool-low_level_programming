@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 /**
-* int_index - searches for an integrer
+* int_index - function
 * @array: array of elements
 * @size: size of the array
 * @cmp: pointer
