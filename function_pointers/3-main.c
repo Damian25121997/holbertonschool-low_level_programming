@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 	int (*res)(int, int);
 	char *get_op;
 
-	if (argc != 4)
+	if (argc < 4)
 	{
 		printf("Error\n");
 		exit(98);
