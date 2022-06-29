@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	two = atoi(argv[3]);
 	get_op = argv[2];
 
-	if ((*get_op == '/' || *get_op == '%') && (two == '0'))
+	if ((get_op == '/' || get_op == '%') && (two == '0'))
 	{
 		printf("Error\n");
 		exit(100);
