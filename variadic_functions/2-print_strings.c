@@ -12,7 +12,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int x;
 	char *pointer;
 
-	va_start(valist , n);
+	va_start(valist, n);
 	for (x = 0; x < n; x++)
 	{
 		pointer = va_arg(valist, char *);
