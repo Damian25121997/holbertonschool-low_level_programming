@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (pointer == 0)
 			printf("(nil)");
 		else
-			pirntf("%s", pointer);
+			printf("%s", pointer);
 
 		if (separator && x < n - 1)
 			printf("%s", separator);
