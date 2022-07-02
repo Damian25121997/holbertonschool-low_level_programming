@@ -8,7 +8,7 @@
 
 void print_char(va_list valist)
 {
-	printf("%c", va_arg(valist, char));
+	printf("%c", va_arg(valist, int));
 }
 
 /**
@@ -42,6 +42,7 @@ void print_string(va_list valist)
 	if (p == NULL)
 	{
 		printf("(nil)");
+		return;
 	}
 	printf("%s", p);
 }
@@ -64,20 +65,20 @@ void print_all(const char * const format, ...)
 			  {'\0', NULL} };
 
 	va_start(valist, format);
-	while (format != NULL && format[z] != '\0')
+	while (format != NULL && format[x] != '\0')
 	{
 		x = 0;
-		while (op[x].letter != '\0')
+		while (op[z].letter != '\0')
 		{
-			if (op[x].letter == format[z])
+			if (op[z].letter == format[x])
 			{
 				printf("%s", sep);
-				op[x].f(valist);
+				op[z].f(valist);
 				sep = ", ";
 			}
-			x++;
+			z++;
 		}
-		z++;
+		x++;
 	}
 	va_end(valist);
 	printf("\n");
