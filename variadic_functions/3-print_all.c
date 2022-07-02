@@ -8,7 +8,7 @@
 
 void print_char(va_list valist)
 {
-	printf("%c", va_arg(valist, int));
+	printf("%c", va_arg(valist, char));
 }
 
 /**
@@ -42,7 +42,6 @@ void print_string(va_list valist)
 	if (p == NULL)
 	{
 		printf("(nil)");
-		return;
 	}
 	printf("%s", p);
 }
@@ -54,7 +53,7 @@ void print_string(va_list valist)
 
 void print_all(const char * const format, ...)
 {
-	char *sep = "";
+	char *sep;
 	int x, z;
 	va_list valist;
 
