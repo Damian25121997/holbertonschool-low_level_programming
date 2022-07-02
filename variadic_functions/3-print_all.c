@@ -3,7 +3,7 @@
 
 /**
 * print_char - prints char
-* @list: list
+* @valist: valist
 */
 
 void print_char(va_list valist)
@@ -13,7 +13,7 @@ void print_char(va_list valist)
 
 /**
 * print_int - prints int
-* @list: list
+* @valist: valist
 */
 void print_int(va_list valist)
 {
@@ -22,7 +22,7 @@ void print_int(va_list valist)
 
 /**
 * print_float - prints floats
-* @list: ;ist
+* @valist: valist
 */
 void print_float(va_list valist)
 {
@@ -31,7 +31,7 @@ void print_float(va_list valist)
 
 /**
 * print_string - prints strings
-* @list: list
+* @valist: valist
 */
 void print_string(va_list valist)
 {
