@@ -54,7 +54,7 @@ void print_string(va_list valist)
 
 void print_all(const char * const format, ...)
 {
-	char *sep;
+	char *sep = "";
 	int x, z;
 	va_list valist;
 
