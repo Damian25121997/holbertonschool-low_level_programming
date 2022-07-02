@@ -74,7 +74,7 @@ void print_all(const char * const format, ...)
 			{
 				printf("%s", sep);
 				op[z].f(valist);
-				sep = ", ";
+				sep = ",";
 			}
 			z++;
 		}
