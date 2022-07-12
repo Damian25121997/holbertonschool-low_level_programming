@@ -1,5 +1,6 @@
 #include "list.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
 *i print_list - print a full list
 * @h: struct list to print
