@@ -1,14 +1,14 @@
 #include "list.h"
 
 /**
-* print_list - print a full list
+*i print_list - print a full list
 * @h: struct list to print
 * Return: number of nodes
 */
 
 size_t print_list(const list_t *h)
 {
-	int x;
+	size_t x;
 
 	while (h)
 	{
