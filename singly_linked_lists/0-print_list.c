@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*i print_list - print a full list
+* print_list - print a full list
 * @h: struct list to print
 * Return: number of nodes
 */
