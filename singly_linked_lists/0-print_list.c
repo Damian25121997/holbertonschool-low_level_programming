@@ -12,7 +12,7 @@ size_t print_list(const list_t *h)
 	int x;
 	const list_t *p = h;
 
-	for (; p; p->next)
+	for (; p; p = p->next)
 	{
 		if (p->str)
 		{
