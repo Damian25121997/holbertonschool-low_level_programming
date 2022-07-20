@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
 	char buffer[1024];
-	int f1, f2, r, w;
+	int f1, f2, r = 1024, w;
 
 	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
