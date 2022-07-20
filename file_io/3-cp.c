@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
 	char buffer[1024];
-	int f1, f2, r == 1024, w;
+	int f1, f2, r = 1024, w;
 
 	if (argc != 3)
 	{
