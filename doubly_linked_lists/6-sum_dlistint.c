@@ -6,7 +6,7 @@
 * Return: sum the of all
 */
 
-int sum_dlistint(listint_t *head)
+int sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
 	dlistint_t *temp = head;
